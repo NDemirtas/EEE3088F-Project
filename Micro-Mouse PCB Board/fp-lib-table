@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Footprints")(type "KiCad")(uri "/Users/n.demirtas/Desktop/University/Third Year/First Semester/EEE3088F/KiCad Footprints and Symbols/Footprints.pretty")(options "")(descr ""))
+  (lib (name "Micro-Mouse Component Footprints")(type "KiCad")(uri "/Users/n.demirtas/Desktop/University/Third Year/First Semester/EEE3088F/KiCad Footprints and Symbols/Micro-Mouse Component Footprints.pretty")(options "")(descr ""))
+)
