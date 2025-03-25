@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "b033e26f-c885-4548-898b-341f2f546b38")
 	(paper "A4")
+	(title_block
+		(title "EEE3088F Project PCB Design")
+		(date "2025-03-24")
+		(company "University of Cape Town")
+		(comment 3 "         Emmanual Basua")
+		(comment 4 "Authors: Nejdet Demirtas")
+	)
 	(lib_symbols
 		(symbol "MCU_ST_STM32L4:STM32L476VGTx"
 			(exclude_from_sim no)
@@ -3351,7 +3358,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "000b7069-b1dd-4c54-b46a-ea87be0e3faa")
+			(uuid "000b7069-b1dd-4c54-b46a-ea87be0e3fab")
 		)
 		(instances
 			(project ""

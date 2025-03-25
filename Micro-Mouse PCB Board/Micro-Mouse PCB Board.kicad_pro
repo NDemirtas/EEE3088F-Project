@@ -558,14 +558,128 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Availability",
+          "name": "Availability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DESCRIPTION",
+          "name": "DESCRIPTION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PACKAGE",
+          "name": "PACKAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PRICE",
+          "name": "PRICE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "AVAILABILITY",
+          "name": "AVAILABILITY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "name": "",
+      "sort_asc": false,
+      "sort_field": "Price"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -613,16 +727,48 @@
       "Root"
     ],
     [
-      "a3b6cf1c-f331-415c-960a-91e135fe0ac8",
-      "Microcontroller"
-    ],
-    [
-      "b123f8f4-456d-4068-b4f2-17724dadefe7",
-      "Sensing System"
-    ],
-    [
       "ad7d91a5-b43e-4220-926d-1cae98152096",
       "Design 1"
+    ],
+    [
+      "c41b24ad-4205-427f-a935-8b4a66e3ae50",
+      "Switch Circuit (IC) MAX869L"
+    ],
+    [
+      "17708a82-36e9-49d0-b364-e4abfe4a98c9",
+      "Battery Charger - BQ24090"
+    ],
+    [
+      "556b4efd-43b0-40a7-b138-bef6cf13618e",
+      "Battery Charger - BQ24091"
+    ],
+    [
+      "e22b9128-7d85-48c5-9419-80f88215c90e",
+      "Battery Monitor - 9V USB-C Input"
+    ],
+    [
+      "5325902a-9408-492f-be21-0efb32d15b3a",
+      "Battery"
+    ],
+    [
+      "c3039a96-8a81-4d35-9291-370a34abc03c",
+      "Buck Converter"
+    ],
+    [
+      "44ccebff-f395-4cff-a943-bd06d53de0c0",
+      "Switch Circuit Slide"
+    ],
+    [
+      "ea91290c-4eb0-4a88-8143-97d156492a34",
+      "2x16 Connector Pins"
+    ],
+    [
+      "8f4e4ad6-9858-4843-8b89-11be762992ab",
+      "Battery Monitor - 3V3 Battery Input"
+    ],
+    [
+      "306f2eef-778e-40b2-8f6b-08e6d6abe796",
+      "Final Design 1"
     ]
   ],
   "text_variables": {}

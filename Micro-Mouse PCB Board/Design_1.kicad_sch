@@ -4,5 +4,712 @@
 	(generator_version "9.0")
 	(uuid "505f7fbb-3418-4f91-98a7-a149fc7fa57a")
 	(paper "A4")
+	(title_block
+		(title "EEE3088F Project PCB Design")
+		(date "2025-03-24")
+		(rev "v1.0")
+		(company "University of Cape Town")
+		(comment 3 "         Emmanual Basua")
+		(comment 4 "Authors: Nejdet Demirtas")
+	)
 	(lib_symbols)
+	(sheet
+		(at 44.45 83.82)
+		(size 48.26 33.02)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "17708a82-36e9-49d0-b364-e4abfe4a98c9")
+		(property "Sheetname" "Battery Charger - BQ24090"
+			(at 44.45 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Battery_Charger.kicad_sch"
+			(at 44.45 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "9V USB-C Input" input
+			(at 44.45 90.17 180)
+			(uuid "2f344caa-c4ca-461a-88ea-af1ed1cfb242")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FAST_CHARGE_CTRL" input
+			(at 44.45 100.33 180)
+			(uuid "9a558669-ce8b-4e9a-80b7-bbe08a661348")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Battery Charger +Output" input
+			(at 92.71 107.95 0)
+			(uuid "73d55a54-77c6-4cf8-9288-4dbf9822efe4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Negative Battery Terminal" input
+			(at 92.71 102.87 0)
+			(uuid "c41f088a-5aad-493c-955e-1e28f2d0d309")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Positive Battery Terminal" input
+			(at 92.71 93.98 0)
+			(uuid "4ae880ce-3e2d-4240-82fd-3ea4bd3e0e51")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Micro-Mouse PCB Board"
+				(path "/c79eaff6-1f87-4a86-8c05-59d68a29ace1/ad7d91a5-b43e-4220-926d-1cae98152096"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 228.6 113.03)
+		(size 45.72 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "306f2eef-778e-40b2-8f6b-08e6d6abe796")
+		(property "Sheetname" "Final Design 1"
+			(at 228.6 112.3184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Final_Design_1.kicad_sch"
+			(at 228.6 141.5546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Micro-Mouse PCB Board"
+				(path "/c79eaff6-1f87-4a86-8c05-59d68a29ace1/ad7d91a5-b43e-4220-926d-1cae98152096"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 182.88 90.17)
+		(size 25.4 17.78)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "44ccebff-f395-4cff-a943-bd06d53de0c0")
+		(property "Sheetname" "Switch Circuit Slide"
+			(at 182.88 89.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Switch_Circuit_Slide.kicad_sch"
+			(at 182.88 108.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Battery Monitor Load" input
+			(at 182.88 93.98 180)
+			(uuid "00285061-ed3e-4bc7-8483-21b21f3353ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Switch ON" input
+			(at 208.28 100.33 0)
+			(uuid "28607cf3-bf0d-4279-99bf-5828b16240fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Micro-Mouse PCB Board"
+				(path "/c79eaff6-1f87-4a86-8c05-59d68a29ace1/ad7d91a5-b43e-4220-926d-1cae98152096"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 95.25 82.55)
+		(size 27.94 35.56)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5325902a-9408-492f-be21-0efb32d15b3a")
+		(property "Sheetname" "Battery"
+			(at 95.25 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Battery.kicad_sch"
+			(at 95.25 118.6946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Negative Battery Terminal" input
+			(at 95.25 100.33 180)
+			(uuid "add06b1c-d3ad-4ff2-9921-ddb4316bdd65")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Positive Battery Terminal" input
+			(at 95.25 91.44 180)
+			(uuid "9a1036af-7f49-4b36-8e28-277b6a983f05")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Micro-Mouse PCB Board"
+				(path "/c79eaff6-1f87-4a86-8c05-59d68a29ace1/ad7d91a5-b43e-4220-926d-1cae98152096"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 125.73 160.02)
+		(size 48.26 33.02)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "556b4efd-43b0-40a7-b138-bef6cf13618e")
+		(property "Sheetname" "Battery Charger - BQ24091"
+			(at 125.73 159.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Battery_Charger.kicad_sch"
+			(at 125.73 193.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "9V USB-C Input" input
+			(at 125.73 165.1 180)
+			(uuid "ea5f1286-4f26-4b12-a981-30a28879f6a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FAST_CHARGE_CTRL" input
+			(at 173.99 175.26 0)
+			(uuid "516ecd82-847d-4dc4-9f4a-29a634797b34")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Battery Charger +Output" input
+			(at 173.99 182.88 0)
+			(uuid "7a32093d-6936-4292-bb03-c537c81260ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Negative Battery Terminal" input
+			(at 173.99 167.64 0)
+			(uuid "4efe0fd5-db83-4953-9856-1baeac30d22a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Positive Battery Terminal" input
+			(at 173.99 163.83 0)
+			(uuid "a417cb76-0f30-473a-8498-0262d7bf0207")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Micro-Mouse PCB Board"
+				(path "/c79eaff6-1f87-4a86-8c05-59d68a29ace1/ad7d91a5-b43e-4220-926d-1cae98152096"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 137.16 83.82)
+		(size 33.02 30.48)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8f4e4ad6-9858-4843-8b89-11be762992ab")
+		(property "Sheetname" "Battery Monitor - 3V3 Battery Input"
+			(at 137.16 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Battery_Monitor.kicad_sch"
+			(at 137.16 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Battery Charger +Output" input
+			(at 137.16 106.68 180)
+			(uuid "068e2243-c280-45b9-9e02-ba814bf91438")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Battery Monitor Load" input
+			(at 170.18 93.98 0)
+			(uuid "2a793364-7adb-4e19-9fd5-cb40ca988871")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C1_SCL" input
+			(at 170.18 97.79 0)
+			(uuid "160c6cfe-1ba8-485b-b8b7-19090230921a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C1_SDA" input
+			(at 170.18 100.33 0)
+			(uuid "fc2b5830-4123-4d59-b7e0-bd223d4e4a7f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3V3 Regulated Voltage" input
+			(at 137.16 90.17 180)
+			(uuid "911d9805-7fca-4da4-9cbf-6d798a5e906a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Micro-Mouse PCB Board"
+				(path "/c79eaff6-1f87-4a86-8c05-59d68a29ace1/ad7d91a5-b43e-4220-926d-1cae98152096"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 91.44 163.83)
+		(size 30.48 25.4)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c3039a96-8a81-4d35-9291-370a34abc03c")
+		(property "Sheetname" "Buck Converter"
+			(at 91.44 163.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Buck_Converter.kicad_sch"
+			(at 91.44 189.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "9V USB-C Input" input
+			(at 91.44 168.91 180)
+			(uuid "7765860d-823d-41d3-9cef-067bba8547d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "9V USB-C Regulated Voltage" input
+			(at 121.92 180.34 0)
+			(uuid "c1105375-cb26-4e50-bd65-8a9041f713f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Micro-Mouse PCB Board"
+				(path "/c79eaff6-1f87-4a86-8c05-59d68a29ace1/ad7d91a5-b43e-4220-926d-1cae98152096"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 13.97 153.67)
+		(size 38.1 35.56)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c41b24ad-4205-427f-a935-8b4a66e3ae50")
+		(property "Sheetname" "Switch Circuit (IC) MAX869L"
+			(at 13.97 152.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Switch_Circuit.kicad_sch"
+			(at 13.97 189.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 13.97 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "Battery Monitor Load" input
+			(at 13.97 165.1 180)
+			(uuid "778ff94d-bf3c-4fa0-9388-36c2cb59df96")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Micro-Mouse PCB Board"
+				(path "/c79eaff6-1f87-4a86-8c05-59d68a29ace1/ad7d91a5-b43e-4220-926d-1cae98152096"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 55.88 158.75)
+		(size 33.02 30.48)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e22b9128-7d85-48c5-9419-80f88215c90e")
+		(property "Sheetname" "Battery Monitor - 9V USB-C Input"
+			(at 55.88 158.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Battery_Monitor.kicad_sch"
+			(at 55.88 189.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "9V USB-C Regulated Voltage" input
+			(at 55.88 163.83 180)
+			(uuid "fb3f3fa6-fd36-4d60-b8c0-ad36a67528f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Battery Charger +Output" input
+			(at 55.88 181.61 180)
+			(uuid "65ac2a4a-2e5b-41df-8512-b40541b81895")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Battery Monitor Load" input
+			(at 88.9 168.91 0)
+			(uuid "de15b0be-9364-4d71-ab3b-488b3f73d187")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C1_SCL" input
+			(at 88.9 172.72 0)
+			(uuid "80daa98b-64ef-492d-b30d-a5f36efe95d5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C1_SDA" input
+			(at 88.9 175.26 0)
+			(uuid "4bb2b44e-10ba-4791-8fbf-0a7ee012f570")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Micro-Mouse PCB Board"
+				(path "/c79eaff6-1f87-4a86-8c05-59d68a29ace1/ad7d91a5-b43e-4220-926d-1cae98152096"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 40.64)
+		(size 30.48 25.4)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ea91290c-4eb0-4a88-8143-97d156492a34")
+		(property "Sheetname" "2x16 Connector Pins"
+			(at 134.62 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connector_Pins_PowerSystem.kicad_sch"
+			(at 134.62 66.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Micro-Mouse PCB Board"
+				(path "/c79eaff6-1f87-4a86-8c05-59d68a29ace1/ad7d91a5-b43e-4220-926d-1cae98152096"
+					(page "12")
+				)
+			)
+		)
+	)
 )
