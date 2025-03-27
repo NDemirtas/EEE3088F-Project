@@ -1,0 +1,18 @@
+.MP2607DL-LF-P :1 ;Battery Management Li-ion charger with power path mgt
+SON50P300X400X100-15N-D
+*STM IC
+*NGS
+*PLB 1="BATT_1" 2="BATT_2" 3="MODE" 4="ICHSET" 5="TMR" 6="'CEB'" 7="GND" 8="NTC" 9="'STAT2'" 10="'STAT1'" 11="IN_1" 12="IN_2" 13="SYS_1" 14="SYS_2" 15="EP"
+*MXP 15
+*DFN MP2607DL-LF-P
+~!Manufacturer_Name (Monolithic Power Systems (MPS))
+~!Manufacturer_Part_Number (MP2607DL-LF-P)
+~!Mouser Part Number (946-MP2607DLLFP)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Monolithic-Power-Systems-MPS/MP2607DL-LF-P?qs=rC7bBWoQAAnJmm%2FXXj7MHA%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/cf35f87142b6432f3ab3452bd28a6ce4.pdf)
+~!Height (1mm)
+~!3D_Model (MP2607DL-LF-P)
+MP2607DL-LF-P
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 15.1!U 14.1!U 13.1!U 12.1!U 11.1!U 10.1!U 9.1!U 8.1!U 

@@ -1,0 +1,9 @@
+Manufacturer=Monolithic Power Systems (MPS)
+PartNumber=MP2607DL-LF-P
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline No-lead
+PinCount=15
+Version=2.1
+Released=2017-11-28 10:10:00
+Downloaded=2025-03-26 20:56:47
+3D=Y

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MP2607DL-LF-P
+D Battery Management Li-ion charger with power path mgt
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/cf35f87142b6432f3ab3452bd28a6ce4.pdf
+$ENDCMP
+#
+#End Doc Library

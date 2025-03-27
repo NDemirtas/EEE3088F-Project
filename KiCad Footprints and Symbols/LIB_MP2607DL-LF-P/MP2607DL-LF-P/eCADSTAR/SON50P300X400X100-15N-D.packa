@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "MP2607DL-LF-P"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-11-04-08:05:16)
+    (mountForm default
+        (footprintRef "SON50P300X400X100-15N-D")
+        (spec "System")
+    )
+)
