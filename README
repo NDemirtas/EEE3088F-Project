@@ -1,0 +1,18 @@
+# Micro Mouse Group Project (Group 52)
+
+This repository contains all the code, documentation, and resources for our group project (group 52) on The Micromouse. This project is focused on the design of a Power Subsystem for a micromouse.
+## File Organization
+
+- **`/docs`**: Documentation files (design specs, reports, etc.).
+- **`/src`**: Source code files for the project.
+- **`/assets`**: Images, diagrams, and other media files.
+
+## Installation
+
+To set up the project locally:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/NDemirtas/EEE3088F-Project.git
+
+
